@@ -37,4 +37,5 @@ jobs:
             cd ~/app/nodeApp_aws
             git clone https://github.com/mnaiem262/nodeApp_aws.git
             npm install --production
-            pm2 restart node-app
+            pm2 start app.js --name "node-app"
+
